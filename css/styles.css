@@ -156,11 +156,11 @@ body {
 
 .hero-wraper .about-hero-container {
   background: var(--navy-blue);
-  /* background-image: var(--gradient), url(../images/people-office.jpg);
+  background-image: var(--gradient), url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  flex-grow: 1; */
+  flex-grow: 1;
   padding-top: 188px;
   padding-bottom: 188px;
 }
