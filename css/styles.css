@@ -337,7 +337,12 @@ body {
   height: 100%;
   border-radius: 50%;
   background-color: var(--iris);
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fourth-section-soc-icon {
+  fill: #f4f4fd;
 }
 /* footer */
 .footer {
