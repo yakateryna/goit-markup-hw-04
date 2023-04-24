@@ -497,8 +497,7 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: var(--iris);
-  opacity: 0.1;
+  background-color: var(--slate);
   display: flex;
   align-items: center;
   justify-content: center;
