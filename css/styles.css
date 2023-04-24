@@ -390,12 +390,12 @@ body {
   fill: currentColor;
 }
 
-/* ховер рамка */
+/* hover frame */
 .customers-link:is(:hover, :focus) {
   border: 1px solid var(--iris, #404bbf);
 }
 
-/* ховер иконка */
+/* hover icon */
 .customers-link:is(:hover, :focus) {
   color: var(--iris);
 }
