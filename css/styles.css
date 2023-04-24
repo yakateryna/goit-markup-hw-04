@@ -283,7 +283,7 @@ body {
   color: var(--navy-blue);
 }
 
-/* section 4 */
+/* -------------------------------SECTION 4 -------------------------------*/
 .fourth-section {
   padding-top: 120px;
   padding-bottom: 72px;
@@ -455,8 +455,46 @@ body {
   margin-top: 17.5px;
 }
 
-/* PORTFOLIO PAGE */
-/*---------------------- HEADER ------------------------*/
+/* --------------------Footer-soc-link -----------------------*/
+.footer-soc-media {
+  display: flex;
+  flex-direction: column;
+  min-width: 208px;
+  align-items: start;
+  margin-left: 120px;
+}
+.footer-soc-media-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.footer-soc-media-item {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-soc-media-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: var(--iris);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-soc-media-icon {
+}
+.footer-soc-media-link:hover {
+  background-color: var(--ocean);
+}
+.footer-soc-media-icon {
+  fill: #f4f4fd;
+}
+/* -------------------------------------------------------------- */
+
+/* =====================PORTFOLIO PAGE =========================*/
+
+/*--------------------------HEADER -----------------------------*/
 .hidden-menu {
   display: none;
 }
