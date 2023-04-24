@@ -397,7 +397,7 @@ body {
 
 /* hover icon */
 .customers-link:is(:hover, :focus) {
-  color: var(--iris);
+  color: var(--ocean);
 }
 
 /*---------------------------------- footer ------------------------- */
