@@ -427,6 +427,16 @@ body {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.footer-wrap {
+  display: flex;
+  flex-direction: row;
+}
+.about-logo-footer {
+  display: flex;
+  flex-direction: column;
+  max-width: 264px;
+}
+
 .footer-logo-link {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -463,10 +473,20 @@ body {
   align-items: start;
   margin-left: 120px;
 }
+.footer-soc-media-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  max-width: 208px;
+  margin-bottom: 16px;
+}
 .footer-soc-media-list {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 .footer-soc-media-item {
   width: 40px;
