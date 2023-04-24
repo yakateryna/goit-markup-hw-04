@@ -173,7 +173,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--white);
   margin: auto;
-  max-width: 496px;
+  max-width: 600px;
 }
 
 .hero-button {
