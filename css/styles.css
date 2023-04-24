@@ -62,7 +62,7 @@ body {
   width: 100%;
 }
 
-/* HEADER */
+/* -------------------------HEADER--------------------------- */
 .header-container {
   display: flex;
   align-items: center;
@@ -152,7 +152,7 @@ body {
   color: var(--ocean);
 }
 
-/* HERO section 1 */
+/*---------------------- HERO section 1-------------------------- */
 
 .hero-wraper .about-hero-container {
   background: var(--navy-blue);
@@ -203,7 +203,27 @@ body {
   color: var(--cornflower);
   background-color: var(--ocean);
 }
-/* section 2 */
+
+/* --------------------------SECTION 2 ----------------------------*/
+
+.second-section-icon-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.second-section-icon-item {
+  flex-basis: calc((100%-72 px) / 4);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+}
+/* ----------------------------------------------------------------- */
 .second-section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -400,7 +420,7 @@ body {
   color: var(--ocean);
 }
 
-/*---------------------------------- footer ------------------------- */
+/*-------------------------------- FOOTER ------------------------- */
 .footer {
   background: var(--navy-blue);
   width: 100%;
@@ -436,7 +456,7 @@ body {
 }
 
 /* PORTFOLIO PAGE */
-/* HEADER */
+/*---------------------- HEADER ------------------------*/
 .hidden-menu {
   display: none;
 }
