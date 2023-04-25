@@ -153,8 +153,13 @@ body {
 }
 
 /*---------------------- HERO section 1-------------------------- */
+.hero {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-.hero-wraper .about-hero-container {
+.hero .about-hero-container {
   background: var(--navy-blue);
   background-image: var(--gradient), url(../images/people-office.jpg);
   background-repeat: no-repeat;
@@ -552,10 +557,16 @@ body {
 .filters-button:hover {
   color: var(--white);
   background-color: var(--ocean);
+  border: none;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .filters-button:focus {
   color: var(--white);
   background-color: var(--ocean);
+  border: none;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /*------------------------Gallery-------------------------------------*/
