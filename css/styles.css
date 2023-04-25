@@ -640,9 +640,13 @@ body {
   transform: translate(0);
 }
 .gallery-cover-text {
+  position: absolute;
   transition: transform 300ms linear;
   transform: translateY(100%);
-  font-style: inherit;
+  top: 0;
+  height: 100%;
+  padding: 40px 32px 0 32px;
+
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -652,8 +656,6 @@ body {
   background-color: var(--iris);
 
   position: absolute;
-  left: 0;
-  bottom: 0;
   height: 100%;
   width: 100%;
   padding: 40px;
