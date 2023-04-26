@@ -654,6 +654,7 @@ body {
   color: var(--cloud);
   background-color: var(--iris);
 }
+/* ------------------------------------------------------------------------------------ */
 .gallery-header {
   font-family: inherit;
   font-weight: 500;
