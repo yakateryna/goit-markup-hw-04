@@ -610,7 +610,7 @@ body {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.menu-text {
+.about-gallery-wrap {
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
@@ -633,11 +633,10 @@ body {
   overflow: hidden;
 }
 .gallery-link {
-  transition: var(--transition-background);
   display: block;
 }
 .gallery-link:hover .gallery-cover-text {
-  transform: translate(0);
+  transform: translateY(0);
 }
 .gallery-cover-text {
   position: absolute;
@@ -654,11 +653,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--cloud);
   background-color: var(--iris);
-
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  padding: 40px;
 }
 .gallery-header {
   font-family: inherit;
