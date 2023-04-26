@@ -651,12 +651,12 @@ body {
 .gallery-cover-text {
   position: absolute;
   transition: transform 300ms linear;
-  transform: translateY(100%);
+  transform: translateY(101%);
   top: 0;
   height: 100%;
+  width: 100%;
   padding: 40px 32px 0 32px;
 
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
